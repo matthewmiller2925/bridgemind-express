@@ -41,3 +41,6 @@ const CompetitionSignup: Model<ICompetitionSignup> = mongoose.model<ICompetition
 );
 
 export default CompetitionSignup;
+
+
+

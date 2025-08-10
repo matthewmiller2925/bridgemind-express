@@ -33,3 +33,6 @@ const BetaSignupSchema = new Schema<IBetaSignup>(
 const BetaSignup: Model<IBetaSignup> = mongoose.model<IBetaSignup>('BetaSignup', BetaSignupSchema);
 
 export default BetaSignup;
+
+
+
