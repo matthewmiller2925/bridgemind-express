@@ -18,8 +18,8 @@ Project Details:
 - Title: ${projectTitle || 'Untitled Project'}
 - URL: ${projectUrl}
 
-Submission Deadline: Sunday, August 10 at 11:59 PM ET
-Results: August 11 (community vote)
+Submission Deadline: Friday, August 15 at 11:59 PM EST
+Results: Saturday, August 16 (community vote)
 Prize: $50 Visa gift card
 
 We've received your submission and will review it. Good luck!
@@ -40,8 +40,8 @@ Important: Make sure your project is accessible at the provided URL until the co
       </div>
       
       <ul style="line-height: 1.8;">
-        <li><strong>Deadline:</strong> Sunday, August 10 at 11:59 PM ET</li>
-        <li><strong>Results:</strong> August 11 (community vote)</li>
+        <li><strong>Deadline:</strong> Friday, August 15 at 11:59 PM EST</li>
+        <li><strong>Results:</strong> Saturday, August 16 (community vote)</li>
         <li><strong>Prize:</strong> $50 Visa gift card</li>
       </ul>
       
