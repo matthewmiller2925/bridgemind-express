@@ -10,6 +10,7 @@ import connectToDatabase from './config/database';
 import betaSignupsRouter from './routes/betaSignups';
 import competitionSignupsRouter from './routes/competitionSignups';
 import goalpostBetaRouter from './routes/goalpostBeta';
+import competitionSubmissionsRouter from './routes/competitionSubmissions';
 
 // Load environment variables
 dotenv.config();
@@ -46,17 +47,19 @@ app.get('/health', (req: Request, res: Response) => {
 app.use('/api/beta-signups', betaSignupsRouter);
 app.use('/api/competition-signups', competitionSignupsRouter);
 app.use('/api/goalpost-beta', goalpostBetaRouter);
+app.use('/api/competition-submissions', competitionSubmissionsRouter);
 
 // Root endpoint
 app.get('/', (req: Request, res: Response) => {
   res.json({
     name: 'BridgeMind Express API',
-    version: '1.0.1',
+    version: '1.0.2',
     endpoints: {
       health: '/health',
       betaSignups: '/api/beta-signups',
       competitionSignups: '/api/competition-signups',
       goalpostBeta: '/api/goalpost-beta',
+      competitionSubmissions: '/api/competition-submissions',
     },
   });
 });
@@ -99,6 +102,9 @@ Available endpoints:
 - GET  /api/competition-signups/stats
 - GET  /api/goalpost-beta
 - POST /api/goalpost-beta
+- GET  /api/competition-submissions
+- POST /api/competition-submissions
+- GET  /api/competition-submissions/recent
 
 Press Ctrl+C to stop the server
 ================================
